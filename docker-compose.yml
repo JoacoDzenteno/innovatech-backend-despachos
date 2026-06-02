@@ -28,7 +28,7 @@ services:
     image: innovatech-backend-ventas:latest
     container_name: back-ventas-user1
     ports:
-      - "8092:8080"
+      - "8092:8081"
     environment:
       SPRING_DATASOURCE_URL: jdbc:mysql://db-innovatech:3306/innovadb?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
       SPRING_DATASOURCE_USERNAME: root
